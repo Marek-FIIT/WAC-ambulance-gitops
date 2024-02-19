@@ -10,5 +10,5 @@ spec:
   secretRef:
     name: repository-pat
   timeout: 1m0s
-  url: https://github.com/Marek-FIIT/ambulance-gitops
+  url: https://github.com/Marek-FIIT/WAC-ambulance-gitops
   
