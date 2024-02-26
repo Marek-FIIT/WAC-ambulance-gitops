@@ -10,3 +10,7 @@ commonLabels:
 
 resources:
 - ../../../apps/msy-ambulance-ufe
+
+components:
+ - ../../../components/version-developers
+ 
