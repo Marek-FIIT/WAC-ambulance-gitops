@@ -12,6 +12,7 @@ resources:
 - ../../../apps/msy-ambulance-ufe
 - ../../../apps/msy-ambulance-webapi
 - ../../../apps/mongo-express
+- ../../../apps/http-echo
 
 components:
 - ../../../components/version-developers
