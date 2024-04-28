@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/msy-ambulance-ufe
+ - ../../../apps/msy-ambulance-webapi
 
 
 components:
