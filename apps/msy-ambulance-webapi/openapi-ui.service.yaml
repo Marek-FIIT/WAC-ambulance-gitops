@@ -1,0 +1,13 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: msy-openapi-ui
+spec:
+  selector:
+    pod: msy-ambulance-webapi-label
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80
+    targetPort: 8081
+    
