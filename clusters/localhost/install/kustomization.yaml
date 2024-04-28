@@ -10,7 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/msy-ambulance-ufe
+- ../../../apps/msy-ambulance-webapi
 
 components:
- - ../../../components/version-developers
+- ../../../components/version-developers
+- https://github.com/Marek-FIIT/ambulance-webapi//deployments/kustomize/components/mongodb
  
+patches:
+- path: patches/ambulance-webapi.service.yaml
