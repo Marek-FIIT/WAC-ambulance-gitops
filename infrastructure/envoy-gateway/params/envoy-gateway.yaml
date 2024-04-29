@@ -7,6 +7,8 @@ logging:
     default: info
 provider:
   type: Kubernetes
+  kubernetes:
+    rateLimitDeployment:
+      container:envoyproxy/envoy:distroless-v1.30-latest
 extensionApis:
   enableEnvoyPatchPolicy: true
-  
